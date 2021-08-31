@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include "QuickSort.hpp"
+#include <algorithm>
 
 using namespace std;
 
@@ -51,7 +52,7 @@ int Sorting::QuickSort(std::vector<double> & list)
 
     auto mid = list.begin() + (list.size() / 2);
 
-    Sorting::Partition(list, )
+    //Sorting::Partition(list, )
     
 }
 
